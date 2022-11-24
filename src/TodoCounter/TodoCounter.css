@@ -1,0 +1,18 @@
+.TodoCounter {
+    font-size: 54px;
+    text-align: center;
+    background: #5565CF;
+    background: radial-gradient(circle farthest-corner at center center, #5565CF 0%, #CF4BBD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.TodoCounter-subtitle {
+    font-size: 28px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+    font-weight: bold;
+}

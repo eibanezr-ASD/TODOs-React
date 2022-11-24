@@ -1,13 +1,32 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center;
+  box-sizing: border-box;
+  padding: 24px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+#root {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 20px;
+  height: 90%;
+  width: 80%;
+    /* background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 08px32px0rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 4px );
+            backdrop-filter: blur( 4px );
+    border-radius: 16px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
